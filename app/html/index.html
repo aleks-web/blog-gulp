@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <!-- Start include head -->
+    @@include('blocks/head.html', { "title": "Блог" })
+    <!-- End include head -->
+
+    <!-- Start body -->
+    <body>
+        <div class="layout">
+
+            <div class="container layout__container">
+                @@include('blocks/sidebar.html')
+
+                <div class="layout__right">
+                    @@include('blocks/header.html')
+
+                    <main class="articles">
+                        @@include('blocks/article-item.html')
+                        @@include('blocks/article-item.html')
+                        @@include('blocks/article-item.html')
+                    </main>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Start include footer -->
+        @@include('blocks/footer.html')
+        <!-- End include footer -->
+    </body>
+    <!-- END body -->
+</html>

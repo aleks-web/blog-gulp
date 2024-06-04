@@ -1,0 +1,40 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.article-item {
+    --padding-size: 30px;
+    background-color: var(--clr-3);
+
+    &__bg {
+        height: 300px;
+        background-position: center;
+    }
+
+    &__content {
+        padding: var(--padding-size);
+        border-radius: 5px;
+    }
+
+    &__h2 {
+        margin-bottom: 6px;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 var(--padding-size);
+        padding-bottom: var(--padding-size);
+        color: var(--clr-5);
+
+        a {
+            transition: .2s;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}

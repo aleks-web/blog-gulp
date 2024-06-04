@@ -1,0 +1,14 @@
+/*
+    Include bootstrap
+*/
+@import "bootstrap/export";
+
+/*
+    Include settings
+*/
+@import "settings/*.scss";
+
+/*
+    Include blocks
+*/
+@import "blocks/*.scss";

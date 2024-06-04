@@ -1,0 +1,39 @@
+/*
+    $grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1280px,
+        xxl: 1366px,
+        xxxl: 1920px
+    );
+
+    @include media-breakpoint-down(sm) {
+        scss coding
+    }
+*/
+
+:root {
+    // Скорость быстрой анимации
+    --speed: 0.3s;
+
+    // html font-size
+    --html-font-size: 14px;
+
+    // Фон body
+    --body-bg: #181818;
+
+    // H1               // H2               // H3
+    --h1-sz: 50px;      --h2-sz: 36px;      --h3-sz: 26px;
+    --h1-lh: 65px;      --h2-lh: 50px;      --h3-lh: 39px;
+    // END H2           // END H2           // END H3
+    
+    // Главные цвета сайта
+    --clr-1: #181818;
+    --clr-2: #3137c9;
+    --clr-3: #202020;
+    --clr-4: #107EFF;
+    --clr-5: #828282;
+    // END Главные цвета сайта
+}

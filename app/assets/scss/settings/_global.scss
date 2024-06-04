@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: var(--html-font-size);
+}
+
+body {
+    font-family: Inter;
+    background-color: var(--body-bg);
+    color: white;
+}
+
+a {
+    color: var(--clr-4);
+}
+
+.layout {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left,
+    &__right {
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+
+    &__container {
+        height: inherit;
+    }
+
+    ul {
+        height: inherit;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        li {
+            display: block;
+            height: inherit;
+
+            a {
+                display: flex;
+                height: inherit;
+                align-items: center;
+                justify-content: center;
+                padding: 0 10px;
+                color: white;
+                transition: var(--speed);
+                text-transform: uppercase;
+
+                &:hover {
+                    background-color: var(--clr-2);
+                }
+            }
+        }
+    }
+}
