@@ -28,4 +28,18 @@ a {
     &__right {
         width: 100%;
     }
+
+    &__content {
+        padding-left: 5%;
+    }
+}
+
+
+.btn {
+    font-size: 1rem;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    background-color: var(--clr-2);
+    border-radius: 50px;
 }
